@@ -60,7 +60,7 @@ function Navbar({ isOpen, setIsOpen }: HeaderProps) {
 
   return (
     <aside
-      className={`z-50 fixed lg:static w-72  text-white mx-auto px-4 py-8 ${
+      className={`z-50 fixed lg:static w-72 bg-white text-white mx-auto px-4 py-8 ${
         isOpen ? "right-0" : "-right-full"
       } duration-300`}
     >

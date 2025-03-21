@@ -25,9 +25,9 @@ const data = [
 
 const BooksAreaChart = () => {
   return (
-    <div className="w-full h-72 md:h-96">
+    <div className="w-full mx-auto h-72 md:h-96">
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data} margin={{ left: 10, right: 10 }}>
+        <AreaChart data={data} margin={{ left: -50, right: 10 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis
             dataKey="month"
